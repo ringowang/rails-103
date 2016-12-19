@@ -1,0 +1,5 @@
+<p>Here are all the posts<p>
+<% @posts.each_with_index do |post, i| %>
+  第<%= i+1 %>条: <%= post.content %>
+  <hr>
+<% end %>
